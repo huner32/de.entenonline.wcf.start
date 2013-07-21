@@ -2,16 +2,16 @@
 <package name="de.entenonline.wcf.start" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename><![CDATA[Startpage]]></packagename>
+		<packagename language="de"><![CDATA[Startseite]]></packagename>
 		<packagedescription><![CDATA[A startpage for WoltLab Community Framework 2.0]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Eine Startseite für das WoltLab Community Framework 2.0]]></packagedescription>
-		<isapplication>1</isapplication>
 		<version>1.0.0 RC 1</version>
 		<date>2013-07-21</date>
 	</packageinformation>
 	
 	<authorinformation>
-		<author>Philipp Bornemann</author>
-		<authorurl>http://www.entenonline.de</authorurl>
+		<author><![CDATA[Philipp Bornemann]]></author>
+		<authorurl><![CDATA[http://www.entenonline.de]]></authorurl>
 	</authorinformation>
 	
 	<requiredpackages>
@@ -19,8 +19,8 @@
 	</requiredpackages>
 	
 	<instructions type="install">
-		<instruction type="template">templates.tar</instruction>
 		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
 		
 		<instruction type="option">option.xml</instruction>
 		<instruction type="pageMenu">pageMenu.xml</instruction>
