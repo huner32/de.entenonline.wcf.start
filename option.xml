@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="startpage">
+				<parent>general</parent>
+				<showorder>6</showorder>
+			</category>
+		</categories>
+	
+		<options>
+			<option name="startpage_title">
+				<categoryname>startpage</categoryname>
+				<optiontype>textI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Startseite]]></defaultvalue>
+			</option>
+			<option name="startpage_description">
+				<categoryname>startpage</categoryname>
+				<optiontype>textI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Die Beschreibung der Startseite]]></defaultvalue>
+			</option>
+			<option name="startpage_headline">
+				<categoryname>startpage</categoryname>
+				<optiontype>textI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Startseite]]></defaultvalue>
+			</option>
+			<option name="startpage_content">
+				<categoryname>startpage</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue><![CDATA[Hier könnte Ihr Text stehen]]></defaultvalue>
+			</option>
+			<option name="startpage_content_enable_html">
+				<categoryname>startpage</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+		</options>
+	</import>
+</data>
