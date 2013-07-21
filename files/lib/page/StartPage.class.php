@@ -1,6 +1,5 @@
 <?php
 namespace wcf\page;
-use wcf\system\WCF;
 
 /**
  * @author	Philipp Bornemann
