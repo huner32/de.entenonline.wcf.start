@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.startpage"><![CDATA[Startseite]]></item>
+		<item name="wcf.acp.option.startpage_title"><![CDATA[Titel der Seite]]></item>
+		<item name="wcf.acp.option.startpage_description"><![CDATA[Seitenbeschreibung]]></item>
+		<item name="wcf.acp.option.startpage_headline"><![CDATA[Überschrift der Seite]]></item>
+		<item name="wcf.acp.option.startpage_content"><![CDATA[Seiteninhalt]]></item>
+		<item name="wcf.acp.option.startpage_content_enable_html"><![CDATA[HTML-Code im Text verwenden]]></item>
+		<item name="wcf.acp.option.startpage_content_enable_html.description"><![CDATA[Durch Aktivierung dieser Option können Sie zur Formatierung des Textes auch HTML verwenden.]]></item>
+	</category>
+
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.startpage"><![CDATA[Startseite]]></item>
+	</category>
+</language>
