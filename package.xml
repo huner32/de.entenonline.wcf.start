@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename><![CDATA[Startpage]]></packagename>
 		<packagename language="de"><![CDATA[Startseite]]></packagename>
-		<packagedescription><![CDATA[A startpage for WoltLab Community Framework 2.0]]></packagedescription>
+		<packagedescription><![CDATA[Startpage for WoltLab Community Framework 2.0]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Eine Startseite für das WoltLab Community Framework 2.0]]></packagedescription>
 		<version>1.0.0 RC 1</version>
 		<date>2013-07-21</date>
