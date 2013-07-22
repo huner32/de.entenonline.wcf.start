@@ -9,6 +9,10 @@
 		<item name="wcf.acp.option.startpage_content_enable_html"><![CDATA[HTML-Code im Text verwenden]]></item>
 		<item name="wcf.acp.option.startpage_content_enable_html.description"><![CDATA[Durch Aktivierung dieser Option können Sie zur Formatierung des Textes auch HTML verwenden.]]></item>
 	</category>
+	
+	<category name="wcf.startpage">
+		<item name="wcf.startpage.title"><![CDATA[Startseite]]></item>
+	</category>
 
 	<category name="wcf.header.menu">
 		<item name="wcf.header.menu.startpage"><![CDATA[Startseite]]></item>
