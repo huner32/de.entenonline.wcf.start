@@ -1,7 +1,7 @@
 {include file='documentHeader'}
 
 <head>
-	<title>{STARTPAGE_TITLE|language} - {PAGE_TITLE|language}</title>
+	<title>{lang}wcf.startpage.title{/lang} - {PAGE_TITLE|language}</title>
 	
 	{include file='headInclude'}
 	
@@ -26,6 +26,8 @@
 		<div class="htmlContent">
 			{if STARTPAGE_CONTENT_ENABLE_HTML}{@STARTPAGE_CONTENT|language}{else}{@STARTPAGE_CONTENT|language|htmlspecialchars|nl2br}{/if}
 		</div>
+		
+		{event name='contentFields'}
 	</fieldset>
 
 	{event name='fieldsets'}
