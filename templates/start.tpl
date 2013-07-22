@@ -24,7 +24,7 @@
 		<legend>{STARTPAGE_HEADLINE|language}</legend>
 	
 		<div class="htmlContent">
-			{if STARTPAGE_CONTENT_ENABLE_HTML}{@STARTPAGE_CONTENT|language}{else}{@STARTPAGE_CONTENT|language|htmlspecialchars|nl2br}{/if}
+			{if STARTPAGE_CONTENT_ENABLE_HTML}{@STARTPAGE_CONTENT|language}{else}{@STARTPAGE_CONTENT|language|newlineToBreak}{/if}
 		</div>
 		
 		{event name='contentFields'}
