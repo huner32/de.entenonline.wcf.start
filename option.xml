@@ -15,24 +15,28 @@
 				<supporti18n>1</supporti18n>
 				<defaultvalue><![CDATA[Startseite]]></defaultvalue>
 			</option>
+			
 			<option name="startpage_description">
 				<categoryname>startpage</categoryname>
 				<optiontype>textI18n</optiontype>
 				<supporti18n>1</supporti18n>
 				<defaultvalue><![CDATA[Die Beschreibung der Startseite]]></defaultvalue>
 			</option>
+			
 			<option name="startpage_headline">
 				<categoryname>startpage</categoryname>
 				<optiontype>textI18n</optiontype>
 				<supporti18n>1</supporti18n>
 				<defaultvalue><![CDATA[Startseite]]></defaultvalue>
 			</option>
+			
 			<option name="startpage_content">
 				<categoryname>startpage</categoryname>
 				<optiontype>textareaI18n</optiontype>
 				<supporti18n>1</supporti18n>
 				<defaultvalue><![CDATA[Hier könnte Ihr Text stehen]]></defaultvalue>
 			</option>
+			
 			<option name="startpage_content_enable_html">
 				<categoryname>startpage</categoryname>
 				<optiontype>boolean</optiontype>
